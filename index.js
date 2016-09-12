@@ -52,7 +52,7 @@ app.post('/webhook/', function (req, res) {
 
 // recommended to inject access tokens as environmental variables, e.g.
 // const token = process.env.PAGE_ACCESS_TOKEN
-const token = "<EAAJlGjXKGAABAKRRwrcgUr67xjGty8SSKAZBNe3eAJQZBIophlI6NLGBlOEzeosypZAIe9WTqVrNDt7mMZAwstjdDHAjCu0Unk0oFPA0DQxPEOgFXcK0AAdGWN2Uqthij4iwR18HVC248820OCcp39xsV2nM6lBX7yGFbZCU66wZDZD>"
+const token = "<EAAJlGjXKGAABAHZB1FZBTYTfZBUQ0GigjR3iuBodlcwPlgHNgXJiNzR69ZBLVWDWuZA6VRpZASfsPwt1n55ykSifZAcm7hZC0j5KXjtCJqYpgDzPBOmn2pjgjFPpFJfZB2W5v0Nrs1HEp0c8Ay1wx3ZCna>"
 
 function sendTextMessage(sender, text) {
 	let messageData = { text:text }
